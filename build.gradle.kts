@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "codes.antti"
-version = "2.1.1"
+version = "2.1.2"
 
 repositories {
     mavenCentral()
@@ -28,10 +28,10 @@ repositories {
 }
 
 dependencies {
-    compileOnly ("dev.folia:folia-api:1.19.4-R0.1-SNAPSHOT")
+    compileOnly ("dev.folia:folia-api:1.20.4-R0.1-SNAPSHOT")
     compileOnly ("com.palmergames.bukkit.towny:towny:0.100.0.0")
     compileOnly ("com.github.BlueMap-Minecraft:BlueMapAPI:v2.4.0")
-    compileOnly ("com.github.TownyAdvanced:SiegeWar:2.4.0")
+    compileOnly ("com.github.TownyAdvanced:SiegeWar:2.12.0")
     compileOnly ("us.dynmap:DynmapCoreAPI:3.4")
     implementation ("com.github.TechnicJelle:UpdateCheckerJava:v2.1") {
         exclude ( group = "org.jetbrains", module = "annotations" )
@@ -97,7 +97,8 @@ modrinth {
             "1.17", "1.17.1",
             "1.18", "1.18.1", "1.18.2",
             "1.19", "1.19.1", "1.19.2", "1.19.3", "1.19.4",
-            "1.20", "1.20.1", "1.20.2", "1.20.3", "1.20.4"
+            "1.20", "1.20.1", "1.20.2", "1.20.3", "1.20.4",
+            "1.20.5", "1.20.6"
     )
 }
 
