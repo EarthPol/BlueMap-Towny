@@ -31,7 +31,6 @@ dependencies {
     compileOnly ("dev.folia:folia-api:1.20.4-R0.1-SNAPSHOT")
     compileOnly ("com.palmergames.bukkit.towny:towny:0.100.0.0")
     compileOnly ("com.github.BlueMap-Minecraft:BlueMapAPI:v2.4.0")
-    compileOnly ("com.github.TownyAdvanced:SiegeWar:2.12.0")
     compileOnly ("us.dynmap:DynmapCoreAPI:3.4")
     implementation ("com.github.TechnicJelle:UpdateCheckerJava:v2.1") {
         exclude ( group = "org.jetbrains", module = "annotations" )

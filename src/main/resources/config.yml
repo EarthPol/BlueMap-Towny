@@ -1,6 +1,8 @@
 # BlueMap-Towny configuration
 # https://github.com/Chicken/BlueMap-Towny#config
 
+
+debug: true
 # Seconds between checks for marker updates
 update-interval: 30
 # Set by /n set mapcolor
